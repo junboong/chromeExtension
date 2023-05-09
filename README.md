@@ -22,18 +22,3 @@
 - 원래 QWE 로 하려고 했는데 크롬 맵핑때문에 못함
 
 
-
-
-
-
-## 아래는 이제 안씀
-~~##주의~~
-~~- 확장프로그램 깔았는데 Alt + Q를 두번 눌러야 동작한다? => 확장프로그램 서랍에서 빼서 메인으로 이동~~
-![image](https://user-images.githubusercontent.com/49121907/237009664-ef10034b-5dcc-4c9e-9b90-a721ce69135b.PNG)
-~~- 이렇게 돼있는거를~~
-
-![image](https://user-images.githubusercontent.com/49121907/237009827-805eda38-1261-4812-a7a3-17207d89152e.PNG)
-~~- 요걸 클릭~~
-
-![image](https://user-images.githubusercontent.com/49121907/237010673-55fd8f13-e352-42f7-91b0-0976530cfe67.png)
-~~- 요렇게 됨~~
