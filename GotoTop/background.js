@@ -5,11 +5,9 @@
   chrome.commands.onCommand.addListener(function(command) {
     console.log(command)
     if (command === 'up') { // 등록한 단축키의 이름
-      //console.log("up");
       moveUp();
       }
     if(command === 'down'){
-      //console.log("dd");
       moveDown();
     }
     });
@@ -59,43 +57,24 @@
       target: {tabId: tabId},
       func: () => {
         let height = document.body.scrollHeight;
-        let delay = 0;
         let i = 0;
         //console.log(height)
 
         var repeat = setInterval(function(){
           window.scrollTo({ left: 0, top: i, behavior: "smooth" });
-          i+=10;
+          i += 10;
           console.log(i)
+
           if(i > height){
             clearInterval(repeat);
           }
 
         }, 30)
-
-        // for(let i = 0; i < height; i++){
-        //   console.log(i)
-        //   delay += 1000;
-        //   //setTimeout(async () => window.scrollTo({ left: 0, top: i, behavior: "smooth" }), delay);
-        // }
-
-        // console.log(i);
-        // let stop = true;
-        // while(stop){
-        //   if(i < height){
-        //     setInterval(() => window.scrollTo({ left: 0, top: i, behavior: "smooth" }), 1000);
-        //   }else{
-        //     stop = false;
-        //   }
-        //   i++;
-        // }
-        
         
       }
       })
     });
 
-    
   }
 
 
