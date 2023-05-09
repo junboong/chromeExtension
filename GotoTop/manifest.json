@@ -20,12 +20,19 @@
         },
         "description": "Activate extention"
       },
-      "my_command": {
+      "up": {
         "suggested_key": {
-          "default": "Alt+W",
-          "mac": "Alt+W"
+          "default": "Alt+A",
+          "mac": "Alt+A"
         },
-        "description": "fly awaaaaaay"
+        "description": "fly awaaaaaaay"
+      },
+      "down": {
+        "suggested_key": {
+          "default": "Alt+S",
+          "mac": "Alt+S"
+        },
+        "description": "go doooooooown"
       }
     }
   }
