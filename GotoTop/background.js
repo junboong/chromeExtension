@@ -31,3 +31,5 @@
 
   // 버튼 클릭 이벤트 핸들러 등록
   document.getElementById('topBtn').addEventListener('click', goTop);
+
+  // it will work?
