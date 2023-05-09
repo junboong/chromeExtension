@@ -1,6 +1,5 @@
 
-  // Alt + Q 로 확장프로그램 팝업 실행시
-  // window.onload = move();
+
 
   // 버튼 단축키
   chrome.commands.onCommand.addListener(function(command) {
@@ -15,17 +14,12 @@
     }
     });
 
-  // 버튼 클릭 이벤트 핸들러 등록
-  document.getElementById('upBtn').addEventListener('click', moveUp());
-  document.getElementById('downBtn').addEventListener('click', moveDown());
-
-
    // 이동 함수
    async function moveUp() {
 
     chrome.tabs.query({ active: true, currentWindow: true }, function(tabs) {
       const tabId = tabs[0].id;
-
+      console.log("moveUp()");
       console.log(tabId);
     
       chrome.scripting.executeScript({
@@ -42,7 +36,7 @@
 
     chrome.tabs.query({ active: true, currentWindow: true }, function(tabs) {
       const tabId = tabs[0].id;
-
+      console.log("moveDown()");
       console.log(tabId);
     
       chrome.scripting.executeScript({
@@ -53,3 +47,15 @@
       })
     });
   }
+
+
+    // 버튼 클릭 이벤트 핸들러 등록
+  //  document.getElementById('upBtn').onclick = moveUp();
+  //  document.getElementById('downBtn').onclick = moveDown();
+  document.querySelector('#upBtn').addEventListener('click', moveUp);
+  document.querySelector('#downBtn').addEventListener('click', moveDown);
+
+  //  let clickUp = document.querySelector("#upBtn");
+  //  clickUp.onClick = moveUp();
+  //  let clickDown = document.querySelector("#downBtn");
+  //  clickDown.onClick = moveDown();
