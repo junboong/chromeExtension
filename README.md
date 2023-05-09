@@ -1,4 +1,4 @@
-# chromeExtension
+# GotoTop
 
 ## 이게 무어냐
 - 웹서핑하다가 top, down 이동 버튼 없을때 쓰면 됨
