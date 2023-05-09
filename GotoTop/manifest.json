@@ -1,7 +1,7 @@
 {
     "manifest_version": 3,
-    "name": "Now you in heaven",
-    "description": "It will lead you to heaven",
+    "name": "go to top",
+    "description": "It will lead you to top",
     "version": "1.0",
     "permissions": [
                     "scripting",
@@ -25,7 +25,7 @@
           "default": "Alt+W",
           "mac": "Alt+W"
         },
-        "description": "Go to the top of page"
+        "description": "fly awaaaaaay"
       }
     }
   }
